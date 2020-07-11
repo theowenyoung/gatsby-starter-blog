@@ -1,0 +1,37 @@
+options:
+  - type: object
+    name: siteMetadata
+    label: ' Site Metadata'
+    options:
+      - type: string
+        default: Gatsby Starter Blog
+        name: title
+        label: Title
+      - type: object
+        default:
+          name: Kyle Mathews
+          summary: who lives and works in San Francisco building useful things.
+        name: author
+        label: Author
+      - type: string
+        default: A starter blog demonstrating what Gatsby can do.
+        name: description
+        label: Description
+      - type: string
+        default: 'https://gatsby-starter-blog-demo.netlify.app/'
+        name: siteUrl
+        label: Site Url
+      - type: object
+        default:
+          twitter: kylemathews
+        name: social
+        label: Social
+  - type: plugin-options
+    plugin: gatsby-plugin-google-analytics
+    label: Gatsby Plugin Google Analytics
+    options:
+      - type: string
+        name: trackingId
+        label: Tracking Id
+sources:
+  - provider: git

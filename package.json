@@ -51,6 +51,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
+    "bloga":"bloga-gatsby options --override",
     "build": "bloga-gatsby init && gatsby build",
     "develop": "bloga-gatsby init && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
